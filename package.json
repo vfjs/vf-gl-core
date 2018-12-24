@@ -1,0 +1,36 @@
+{
+  "name": "vf-gl-core",
+  "version": "0.0.1",
+  "description": "vf render core",
+  "main": "./src/index.js",
+  "scripts": {
+    "dist": "webpack --config webpack.dist.config.js"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "WebGL",
+    "Shader"
+  ],
+  "author": "WaterTian",
+  "license": "MIT",
+  "homepage": "https://github.com/vfjs/vf-gl-core",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:vfjs/vf-gl-core.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
